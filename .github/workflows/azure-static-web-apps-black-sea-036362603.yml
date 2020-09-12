@@ -21,7 +21,7 @@ jobs:
       - name: Setup .net SDK
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 3.1.201  
+          dotnet-version: 5.0.100-preview.8.20417.9  
       - name: Build App
         run: dotnet publish -c Release -o published
       - name: Build And Deploy
